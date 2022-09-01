@@ -1,6 +1,6 @@
 <?php 
 session_start();
-$connect = mysqli_connect("localhost", "root", "", "testing");
+$connect = mysqli_connect("20.203.104.240", "cartuser", "test@123", "cart");
 
 if(isset($_POST["add_to_cart"]))
 {
